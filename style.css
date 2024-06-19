@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/*general styling for every element in main*/
+.mainLorem {
+    padding-top: 50px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 5em;
+    margin-right: 5em;
+    row-gap: 30px;
+
+}
+
+.lime {
+    display: flex;
+    padding-top: 10px;
+    column-gap: 220px; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.dropDown {
+    width: 28px;
+    cursor: pointer;
+}
+
+/*Default theme styling*/
+
+.themeOne {
+    background-color: #1dd86ea9;
+}
+.power {
+    width: 28px;
+    cursor: pointer;
+}
+
+.powerOn {
+    display:none;
+}
+
+
+/*Secondary theme styling*/
+
+.themeTwo {
+    background-color: linear-gradient(from top left #faaa15, #fc7d0d, #d92a13);
+}
+
+.powerOn {
+    width: 28px;
+}
+
