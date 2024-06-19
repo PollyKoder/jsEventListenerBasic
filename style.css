@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
 }
 
 
@@ -16,7 +17,6 @@
     margin-left: 5em;
     margin-right: 5em;
     row-gap: 30px;
-
 }
 
 .lime {
@@ -32,6 +32,11 @@
 .dropDown {
     width: 28px;
     cursor: pointer;
+}
+
+.showMenu{
+    display: none;
+    border: 2 solid #222222;
 }
 
 /*Default theme styling*/
