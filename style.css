@@ -34,16 +34,33 @@
     cursor: pointer;
 }
 
-.showMenu{
+.hidden {
     display: none;
-    border: 2 solid #222222;
 }
+
+.showMenu{
+    display: flex;
+    flex-direction: column;
+    background-color: #bdbdbd;
+    padding: 40px;
+    border: 2px solid #4d4d4d;
+    border-radius: 25px;
+    position: fixed;
+    top: 60px;
+    right: 24em; 
+}
+
+/*I wanted to have a minor animation to have the "dropdown effect" but didn't figure it out in time*/
+/* .showMenu:active {
+    transition: 0.8s ease;
+} */
 
 /*Default theme styling*/
 
 .themeOne {
     background-color: #1dd86ea9;
 }
+
 .power {
     width: 28px;
     cursor: pointer;
@@ -57,8 +74,11 @@
 /*Secondary theme styling*/
 
 .themeTwo {
-    background-color: linear-gradient(from top left #faaa15, #fc7d0d, #d92a13);
+    background-color: #ed9f45;
 }
+
+/* wanted to add a linear-gradient on the secondary theme, but ran unto a form of error
+ linear-gradient(#faaa15, #fc7d0d, #d92a13) */
 
 .powerOn {
     width: 28px;
